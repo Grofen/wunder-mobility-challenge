@@ -1,0 +1,73 @@
+@import "./styles/font.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Main Colors */
+  --color-black: #1f1f1f;
+  --color-cream1: #f8efea;
+  --color-cream2: #fddfcd;
+  --color-dark-blue: #000d36;
+  --color-neutral1: #e9edfb;
+  --color-purple: #2648db;
+  --color-white: #ffffff;
+
+  /* Background colors */
+  --wunder-color-fill-black: var(--color-black);
+  --wunder-color-fill-blue: var(--color-dark-blue);
+  --wunder-color-fill-cream: var(--color-cream1);
+  --wunder-color-fill-creamest: var(--color-cream2);
+  --wunder-color-fill-neutral: var(--color-neutral1);
+  --wunder-color-fill-purple: var(--color-purple);
+  --wunder-color-fill-white: var(--color-white);
+
+  /* Font colors */
+  --wunder-color-text-black: var(--color-black);
+  --wunder-color-text-blue: var(--color-dark-blue);
+  --wunder-color-text-cream: var(--color-cream1);
+  --wunder-color-text-creamest: var(--color-cream2);
+  --wunder-color-text-neutral: var(--color-neutral1);
+  --wunder-color-text-purple: var(--color-purple);
+  --wunder-color-text-white: var(--color-white);
+
+  /* Border colors */
+  --wunder-color-border-black: var(--color-black);
+  --wunder-color-border-blue: var(--color-dark-blue);
+  --wunder-color-border-cream: var(--color-cream1);
+  --wunder-color-border-creamest: var(--color-cream2);
+  --wunder-color-border-neutral: var(--color-neutral1);
+  --wunder-color-border-purple: var(--color-purple);
+  --wunder-color-border-white: var(--color-white);
+}
+
+body {
+  background-color: var(--wunder-color-fill-cream);
+  color: var(--wunder-color-text-black);
+  font-family: var(--wunder-font-family-primary);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  text-transform: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
