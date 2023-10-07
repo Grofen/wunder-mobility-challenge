@@ -1,0 +1,26 @@
+.primary {
+  @apply transition-colors duration-200 ease-in-out bg-dark-blue text-white border border-dark-blue;
+
+  &:hover,
+  &:focus {
+    @apply bg-white text-dark-blue border-dark-blue;
+  }
+}
+
+.secondary {
+  @apply transition-colors duration-200 ease-in-out bg-purple text-white border border-purple;
+
+  &:hover,
+  &:focus {
+    @apply bg-white text-purple border-purple;
+  }
+}
+
+.tertiary {
+  @apply transition-colors duration-200 ease-in-out bg-white border border-white text-dark-blue;
+
+  &:hover,
+  &:focus {
+    @apply border border-dark-blue;
+  }
+}
