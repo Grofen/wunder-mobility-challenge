@@ -13,6 +13,7 @@
   --color-neutral1: #e9edfb;
   --color-purple: #2648db;
   --color-white: #ffffff;
+  --color-gray: #a0aec0;
 
   /* Background colors */
   --wunder-color-fill-black: var(--color-black);
@@ -28,6 +29,7 @@
   --wunder-color-text-blue: var(--color-dark-blue);
   --wunder-color-text-cream: var(--color-cream1);
   --wunder-color-text-creamest: var(--color-cream2);
+  --wunder-color-text-gray: var(--color-gray);
   --wunder-color-text-neutral: var(--color-neutral1);
   --wunder-color-text-purple: var(--color-purple);
   --wunder-color-text-white: var(--color-white);
