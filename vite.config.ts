@@ -19,7 +19,9 @@ export default defineConfig({
       pages: "/src/pages",
       providers: "/src/providers",
       routes: "/src/routes",
+      states: "/src/states",
       types: "/src/types",
+      utils: "/src/utils",
     },
   },
 });
